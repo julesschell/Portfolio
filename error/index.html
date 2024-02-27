@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+        body{
+            background-color: #000000;
+        }
+        body h1{
+            font-size: 50px;
+            color: white;
+        }
+        .not-found{
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .not-found a button{
+            border:none;
+            padding: 15px 30px;
+            color: whitesmoke;
+            background: #1769b6;
+            outline: none;
+            font-size:20px;
+            font-family: poppins;
+            border-radius: 30px;
+            font-weight: 400;
+            cursor: pointer;
+            position: relative;
+            transition: all .4s ease;
+            border-radius: 15px;
+        }
+        .footer{
+            background: #000000;
+            padding: 50px;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            font-family: poppins;
+            align-items: center;
+            justify-content: center;
+            border-top: white solid;
+        }        
+        .footer .footer-text{
+            position: relative;
+            display: inline;
+            font-size: 18px;
+            font-weight: 400;
+            opacity: 1;
+        }
+
+    </style>
+    <div class="not-found">
+        <h1>Not Found</h1>
+        <a href="https://alphasinus.xyz"><button>Home</button></a>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <img src="../images/copyright.png" alt="copyright-img" class="images" height="14px"> Alpha Sinus <br>
+        </div>
+        <div>
+            <p style="font-size: 10px;">By Hoshimov Asadbek</p>
+        </div>
+    </div>
+</body>
+</html>
+
